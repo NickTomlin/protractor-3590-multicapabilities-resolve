@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "protractor single-capability.js && protractor multi-capability.js"
+    "test": "protractor single-capability.conf.js && protractor multi-capabilities.conf.js"
   },
   "keywords": [],
   "author": "",

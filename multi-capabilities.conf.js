@@ -18,10 +18,10 @@ const config = {
     console.log('starting')
     return new Promise(resolve => {
       setTimeout(() => {
-        global.addedByResolve = true
-        console.log('resolving')
+        config.baseUrl = 'http://example.com'
+        console.log('DONE AND SET')
         resolve()
-      }, 5000)
+      }, 2000)
     })
   }
 }

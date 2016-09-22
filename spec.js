@@ -1,5 +1,5 @@
 describe('protractor', () => {
   it('waits for beforeLaunch to resolve', () => {
-    expect(global.addedByResolve).toEqual(true)
+    expect(browser.baseUrl).toEqual('http://example.com')
   })
 })
