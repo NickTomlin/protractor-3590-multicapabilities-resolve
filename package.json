@@ -1,0 +1,16 @@
+{
+  "name": "protractor-3590-multicapabilities-resolve",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "protractor single-capability.js && protractor multi-capability.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chromedriver": "^2.24.1",
+    "protractor": "^4.0.9"
+  }
+}
